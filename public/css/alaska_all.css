@@ -1,0 +1,320 @@
+.subpg_sec h1 {
+    font-size: 28px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.sub_visual .bgin {
+    background-image: url(../img/sub_intro/banimg.jpg)
+}
+
+#sidemenu ul .navy a {
+    color: #edbd03;
+    background: #072f49 url(../img/logo/smenu_bg_ov.png) no-repeat right 10px center;
+}
+
+.all_txtbox1 {
+    width: 100%;
+    text-align: center;
+}
+
+.all_txtbox1>h1 {
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+}
+
+.all_txtbox1>h1>.logo_blue {
+    color: #2a47a6;
+}
+
+.all_txtbox1 p {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.all_txtbox2 {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #000;
+}
+
+.all_txtbox2 p {
+    text-align: left;
+}
+
+.all_txtbox2 #important {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.all_imgbox {
+    width: 100%;
+}
+
+.all_imgbox>img {
+    width: 100%;
+}
+
+.all_txtbox3 {
+    border-top: 1px solid #000;
+}
+
+.text>h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+#all_txtbox3-1 {
+    width: 100%;
+}
+
+#all_txtbox3-1>div {
+    width: calc(100% - 10px / 2);
+    height: auto;
+    display: flex;
+}
+
+#all_txtbox3-1 .img1 {
+    width: 100%;
+    background: url(../img/sub_alaska_all/alaska_b4.jpg) no-repeat center center;
+    background-size: cover;
+    margin-right: 20px;
+}
+
+#all_txtbox3-1 .txt {
+    width: 100%;
+}
+
+#all_txtbox3-1 .txt>h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.box2 {
+    margin-top: 100px;
+}
+
+#all_txtbox3-1 .img2 {
+    width: 100%;
+    background: url(../img/sub_alaska_all/animal.jpg) no-repeat bottom center;
+    background-size: cover;
+    margin-right: 20px;
+}
+
+.box3 {
+    margin-top: 100px;
+}
+
+#all_txtbox3-1 .img3 {
+    width: 100%;
+    background: url(../img/sub_alaska_all/alaska_b5.jpg) no-repeat center center;
+    background-size: cover;
+    margin-right: 20px;
+}
+
+.box4 {
+    margin-top: 100px;
+}
+
+#all_txtbox3-1 .img4 {
+    width: 100%;
+    background: url(../img/sub_alaska_all/alaska4.jpg) no-repeat center bottom;
+    background-size: cover;
+    margin-right: 20px;
+}
+
+
+.box5 {
+    margin-top: 100px;
+}
+
+#all_txtbox3-1 .img5 {
+    width: 100%;
+    background: url(../img/sub_alaska_all/alaska5.jpg) no-repeat center center;
+    background-size: cover;
+    margin-right: 20px;
+}
+
+.box6 {
+    margin-top: 100px;
+}
+
+#all_txtbox3-1 .img6 {
+    width: 100%;
+    background: url(../img/sub_alaska_all/alaska6.jpg) no-repeat center center;
+    background-size: cover;
+    margin-right: 20px;
+}
+
+.box7 {
+    margin-top: 100px;
+}
+
+#all_txtbox3-1 .img7 {
+    width: 100%;
+    background: url(../img/sub_alaska_all/fishing.jpg) no-repeat center center;
+    background-size: cover;
+    margin-right: 20px;
+}
+
+.box8 {
+    margin-top: 100px;
+}
+
+#all_txtbox3-1 .img8 {
+    width: 100%;
+    background: url(../img/sub_alaska_all/alaska7.jpg) no-repeat center center;
+    background-size: cover;
+    margin-right: 20px;
+}
+
+.box9 {
+    margin-top: 100px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+
+#all_txtbox3-1 .img9 {
+    width: 100%;
+    background: url(../img/sub_alaska_all/trail.jpg) no-repeat center center;
+    background-size: cover;
+    margin-right: 20px;
+}
+
+.weather_txt>h5 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.weather_txt>p>span {
+    font-weight: bold;
+}
+
+.weather_img {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.weather_img>img {
+    width: 100%;
+}
+
+.weather_table>table {
+    width: 100%;
+    border: 1px solid #ededed;
+    table-layout: fixed;
+    text-overflow: ellipsis;
+}
+
+.mon th {
+    padding: 10px 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ededed;
+    border-left: 1px solid #ededed;
+    font-weight: bold;
+}
+
+.tem td {
+    padding: 10px 0;
+    box-sizing: border-box;
+    border-left: 1px solid #ededed;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+    #all_txtbox3-1 {
+        width: 100%;
+    }
+
+    .weather_img>img {
+        width: 100%;
+    }
+
+    .weather_table>table {
+        width: 100%;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 720px) {
+
+
+    .all_txtbox2 p {
+        font-size: 14px;
+    }
+
+    #all_txtbox3-1 {
+        width: 100%;
+    }
+
+    #all_txtbox3-1 .img1 {
+        width: 100%;
+    }
+
+    #all_txtbox3-1 .txt1 {
+        width: 100%;
+    }
+
+    #all_txtbox3-1 .txt>h1 {
+        font-size: 16px;
+    }
+
+    #all_txtbox3-1 .txt>p {
+        font-size: 14px;
+    }
+
+    .weather_txt>p {
+        font-size: 14px;
+    }
+
+    .mon th {
+        font-size: 15px;
+    }
+
+    .tem td {
+        font-size: 14px;
+    }
+
+    #mobile_sidebar #sidemenu ul .on a {
+        color: #edbd03;
+        background: #072f49 url(../img/sub_alaska_all/sidebar_bu2.png) no-repeat right 10px center;
+        background-size: 30px;
+    }
+
+    .box2,
+    .box3,
+    .box4,
+    .box5,
+    .box6,
+    .box7,
+    .box8,
+    .box9 {
+        margin-top: 40px;
+    }
+
+}

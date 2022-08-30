@@ -1,0 +1,272 @@
+.subpg_sec h1 {
+    font-size: 28px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.sub_visual .orora {
+    background-image: url(../img/sub_notice/orora.jpg);
+    background-position: center center;
+    background-size: 100%;
+}
+
+
+.main_t_wrap {
+    width: 100%;
+    height: 37px;
+    margin-bottom: 20px;
+}
+
+.main_t_wrap>a {
+    color: #072F49;
+    width: 80px;
+    height: 37px;
+    line-height: 37px;
+    border: 1px solid #072F49;
+    text-align: center;
+    border-radius: 6px;
+    float: right;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.main_t_wrap>a:hover {
+    color: #fff;
+    background-color: #072F49;
+    font-weight: bold;
+}
+
+.n_table>table {
+    width: 100%;
+}
+
+.qtable_wrap {
+    width: 100%;
+}
+
+.qhead {
+    display: flex;
+}
+
+.qhead>div {
+    width: 10%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-align: center;
+}
+
+.qhead>div:first-child {
+    width: 5%;
+}
+
+.qhead>div:nth-child(2) {
+    width: 75%;
+}
+
+.qbody>.qna {
+    display: flex;
+}
+
+.qbody>.qna>div {
+    width: 10%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-align: center;
+}
+
+.qbody>.qna>div:first-child {
+    width: 5%;
+}
+
+.qbody>.qna>div:nth-child(2) {
+    width: 75%;
+    text-align: left;
+}
+
+.ans {
+    display: none;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+
+.qtitle {
+    cursor: pointer;
+}
+
+.in {
+    width: 100%;
+    display: block;
+}
+
+thead>tr {
+    border-top: 2px solid #2A47A6;
+}
+
+thead th {
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    padding: 14px 8px;
+    border-bottom: 1px solid #363636;
+}
+
+.q_table_wrap tbody>tr>td {
+    border: none;
+    padding: 14px 8px;
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle;
+    position: relative;
+    white-space: inherit;
+}
+
+tbody td>a {
+    color: #000;
+}
+
+tbody .center {
+    text-align: center;
+}
+
+tbody .imp {
+    font-weight: bold;
+}
+
+.m_b_number {
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.m_b_number .n_left {
+    background: url('../img/sub_Q&A/icon_pagination.png') no-repeat -50px -60px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 52%;
+}
+
+.m_b_number .n_right {
+    background: url('../img/sub_Q&A/icon_pagination.png') no-repeat -120px -60px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 52%;
+}
+
+.m_b_number>a {
+    font-size: 18px;
+    color: #000;
+}
+
+.m_b_number .b_number {
+    color: #1351A5;
+    border-bottom: 2px solid #1351A5;
+}
+
+.mb_n_table_wrap {
+    display: none;
+}
+
+.mb_n_table_wrap tbody>tr>td {
+    border: none;
+    padding: 14px 8px;
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle;
+    position: relative;
+}
+
+.accordion {
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 10px;
+    background-color: #e3effd;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+@media only screen and (max-width: 900px) {
+    .q_table_wrap {
+        display: none;
+    }
+
+    .mb_n_table_wrap {
+        display: block;
+    }
+
+    .mb_n_table_wrap table {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 720px) {
+
+    .n_select {
+        font-size: 14px;
+    }
+
+    .main_t>a {
+        font-size: 13px;
+    }
+
+
+    thead th {
+        font-size: 14px;
+    }
+
+    tbody .blue {
+        font-size: 14px;
+    }
+
+    .main_b {
+        width: 70px;
+        height: 32px;
+        line-height: 32px;
+    }
+
+    .main_b>a {
+        font-size: 12px;
+    }
+
+    .m_b_number {
+        width: 100%;
+    }
+
+    .m_b_number>a {
+        font-size: 15px;
+    }
+
+    .n_table>tbody>tr>td {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        font-size: 14px;
+    }
+
+    .accordion {
+        font-size: 14px;
+    }
+
+    .panel {
+        font-size: 14px;
+    }
+
+}

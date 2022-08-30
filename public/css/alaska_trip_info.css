@@ -1,0 +1,283 @@
+.subpg_sec h1 {
+    font-size: 28px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.sub_visual .map1 {
+    background-image: url(../img/sub_trip_info/youtube_ban.jpg);
+}
+
+.ttab_container {
+    padding: 50px 0;
+}
+
+.t_content {
+    padding: 50px 0;
+}
+
+.main_txtbox1 {
+    margin-bottom: 20px;
+}
+
+.main_txtbox1>h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.main_txtbox1>h1>.sBlue {
+    color: #2a47a6;
+}
+
+.main_txtbox3 {
+    border-top: 1px solid #000;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.main_txtbox3>h3 {
+    text-align: center;
+    color: #333333;
+}
+
+.main_imgbox {
+    width: 100%;
+    text-align: center;
+}
+
+.main_txtbox4 {
+    margin-top: 20px;
+}
+
+.main_txtbox4>h4 {
+    text-align: center;
+    color: #333333;
+}
+
+.subpg_sec1 {
+    margin-bottom: 50px;
+}
+
+.subpg_sec1 h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subpg_sec1 span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2a47a6;
+}
+
+.line {
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+
+.hotel_img {
+    width: 100%;
+    text-align: center;
+    padding: 50px 0 20px 0;
+    box-sizing: border-box;
+}
+
+.hotel_img>img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.resort_txt {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.resort_txt>h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.resort_txt .bt {
+    margin-bottom: 5px;
+}
+
+.hotel2 {
+    width: 100%;
+}
+
+.hotel_img2 {
+    width: 100%;
+    text-align: center;
+    padding: 50px 0 20px 0;
+    box-sizing: border-box;
+}
+
+.hotel_img2>img {
+    width: 100%;
+}
+
+.hotel4 {
+    margin-bottom: 50px;
+}
+
+.hotel_img3 {
+    width: 100%;
+    text-align: center;
+    padding: 50px 0 20px 0;
+    box-sizing: border-box;
+}
+
+.hotel_img3>img {
+    width: 100%;
+}
+
+.hotel_img4 {
+    width: 100%;
+    text-align: center;
+    padding: 50px 0 20px 0;
+    box-sizing: border-box;
+}
+
+.hotel_img4>img {
+    width: 100%;
+}
+
+.food_img {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.food_img img {
+    width: 33.333%;
+    margin-right: 5px;
+
+}
+
+.intro_txt {
+    width: 100%;
+    padding-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.intro_txt span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.trail_img {
+    width: 100%;
+    text-align: center;
+    margin: 100px 0 20px 0;
+}
+
+.trail_img>img {
+    width: 100%;
+}
+
+.trail_txt>h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.trail_txt .btm {
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+    .main_txtbox1>h1 {
+        font-size: 22px;
+    }
+
+    .subpg_sec>h1 {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+
+    .menu_bar ul li a {
+        font-size: 14px;
+    }
+
+    .main_txtbox1>h1 {
+        font-size: 20px;
+    }
+
+    .main_txtbox3>h3 {
+        font-size: 14px;
+    }
+
+    .main_imgbox {
+        margin: 30px 0;
+    }
+
+    .main_txtbox4>h4 {
+        font-size: 14px;
+    }
+
+    #bar1 {
+        font-size: 14px;
+    }
+
+    #bar2 {
+        font-size: 14px;
+    }
+
+
+    .subpg_sec1>h1 {
+        font-size: 20px;
+    }
+
+    .subpg_sec1 span {
+        font-size: 20px;
+    }
+
+    .resort_txt>h2 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .resort_txt>p {
+        font-size: 14px;
+    }
+
+    .hotel_img,
+    .hotel_img2,
+    .hotel_img3,
+    .hotel_video {
+        padding: 40px 0 20px 0;
+    }
+
+    .intro_txt>p {
+        font-size: 14px;
+    }
+
+    .intro_txt>.bt>span {
+        font-size: 14px;
+    }
+
+    .trail_txt>h2 {
+        font-size: 16px;
+    }
+
+    .trail_txt>p {
+        font-size: 14px;
+    }
+
+}

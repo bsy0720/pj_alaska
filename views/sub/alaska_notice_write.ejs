@@ -1,0 +1,73 @@
+<div class="sub_visual">
+    <div class="bg orora">
+        <p class="title">고객센터</p>
+        <p class="txt">내가 꿈꾸던 여행지를 현실에서 만나세요!</p>
+    </div>
+</div>
+<div class="w1200 content_box">
+    <div id="content">
+        <div class="subpg_title_wrap">
+            <h2 class="subpg_title">공지사항</h2>
+        </div>
+        <div class="write_t_wrap">
+            <a href="notice">목록</a>
+        </div>
+        <% if(typeof errs !== 'undefined') { %>
+        <% errs.forEach(() => { %>
+        <h3><%err.param%> : <%=err.msg%></h3>
+        <%})%>
+        <%}%>
+                <form class="write_table" method="POST" action="aNotice">
+                    <table border="1" id="w_table">
+                        <colgroup>
+                            <col style="width: 18%;">
+                        </colgroup>
+                        <tbody>
+                              <tr>
+                                  <th>
+                                      <span class="impt">이름</span>
+                                  </th>
+                                  <td>
+                                      <div class="form_name">
+                                          <input type="text" title="이름" class="input_p name_im" style="width: 30%;" name="writer">
+                                      </div>
+                                  </td>
+                              </tr>
+                              <tr>
+                                <th>비밀번호</th>
+                                <td>
+                                    <div class="form_pw">
+                                        <input type="password" title="비밀번호" class="input_p" style="width: 30%;" name="pass">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <span class="impt">제목</span>
+                                </th>
+                                <td>
+                                    <div class="form_title">
+                                       <input type="text" title="제목" class="input_title" style="width: 100%;" name="title">
+                                       <div></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <span class="impt">내용</span>
+                                </th>
+                                <td>
+                                    <div class="form_text">
+                                        <textarea placeholder="내용을 입력해 주세요." style="width:100%;" name="content"></textarea>
+                                    </div>
+                                </td>
+                            </tr>
+                          </tbody>
+                    </table>
+              
+                <div class="write_btn_wrap">
+                   <input type="submit" value="저장">
+                </div>   
+            </form>            
+            </div>
+        </div>

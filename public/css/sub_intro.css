@@ -1,0 +1,154 @@
+.subintro_sec1 h1 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.subintro_sec1 h2 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.sub_visual .bgin {
+    background-image: url(../img/sub_intro/banimg.jpg)
+}
+
+.subintro_sec1_box {
+    padding-top: 40px;
+    border-top: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subintro_sec_text {
+    width: calc(100% - 320px);
+}
+
+.subintro_sec_text>p {
+    line-height: 30px;
+}
+
+.subintro_sec_text>p:first-child {
+    margin-bottom: 10px;
+}
+
+.subintro_sec_pic {
+    width: 300px;
+    height: 100%;
+
+}
+
+.subintro_sec_pic>img {
+    width: 100%;
+    height: auto;
+}
+
+.subintro_sec_pic>p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.subcon_title {
+    text-align: center;
+}
+
+.subcon_title>h2 {
+    display: inline-block;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.subcon_title>span {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.subcon_pic {
+    width: 100%;
+    padding-top: 50%;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.subcon_pic>img {
+    width: 100%;
+    height: 100%;
+}
+
+.subcon_text {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.margintit {
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+    .subintro_sec1 h1 {
+        font-size: 18px;
+    }
+
+    .subintro_sec1 h2 {
+        font-size: 20px;
+    }
+
+    .subcon_title>h2 {
+        font-size: 24px;
+    }
+
+    .subcon_title>span {
+        font-size: 20px;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 720px) {
+    .subintro_sec1 h1 {
+        font-size: 18px;
+    }
+
+    .subintro_sec1 h2 {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .subcon_title>h2 {
+        font-size: 20px;
+    }
+
+    .subcon_title>span {
+        font-size: 18px;
+    }
+
+    .subintro_sec_text {
+        width: 100%;
+        order: 2;
+    }
+
+    .subintro_sec1_box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .subintro_sec_text>p {
+        line-height: 30px;
+    }
+
+    .subintro_sec_text>p:first-child {
+        margin-bottom: 10px;
+    }
+
+    .subintro_sec_pic {
+        width: 100%;
+        height: 100%;
+        order: 1;
+    }
+
+
+}

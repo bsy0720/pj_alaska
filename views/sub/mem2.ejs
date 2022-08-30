@@ -1,0 +1,61 @@
+<div class="blue_wrap"></div>
+<section class="w1200 login_contin">
+    <article class="login_wrap">
+        <div class="mem_title">
+            <h1 class="mem_title">회원가입</h1>
+            <p>Before you die, The last frontier</p>
+        </div>
+        <form class="mem2">
+            <strong>사이트 이용정보 입력</strong>
+            <p>영문자, 숫자, _ 만 입력 가능. 최소 3자이상 입력하세요. </p>
+            <div class="wsf-field">
+                <input class="wsf-input-text" id="ws-user-id" type="text" placeholder="아이디를 입력해주세요">
+                <button class="ws_button" onclick="id_check();">중복확인</button>
+                <div class="wsf-input-error"></div>
+            </div>
+        </form>
+        <form class="mem2">
+            <p>영문자, 숫자, 특수기호를 혼합하여 최소 8자이상 입력하세요.</p>
+            <div class="wsf-field">
+                <input class="wsf-input-text" id="ws-user-password" type="password" placeholder="비밀번호를 입력해주세요">
+                <div class="wsf-input-error"></div>
+            </div>
+            <div class="wsf-field">
+                <input class="wsf-input-text" id="ws-user-repassword" type="password" placeholder="비밀번호 확인">
+                <div class="wsf-input-error"></div>
+            </div>
+        </form>
+        <form class="mem2">
+            <strong>개인정보 입력</strong>
+            <div class="wsf-field">
+                <input class="wsf-input-text" id="ws-user-name" type="text" placeholder="이름을 입력해주세요">
+            </div>
+            <div class="wsf-field">
+                <input class="wsf-input-text" id="ws-user-emailid" type="text" placeholder="아이디">
+                <select class="email_wrap" name="email_wrap">
+                    <option value="naver">@ naver.com</option>
+                    <option value="daum">@ daum.net</option>
+                    <option value="google">@ google.com</option>
+                    <option value="nate">@ nate.com</option>
+                    <option value="nate">@ 직접입력</option>
+                </select>
+            </div>
+            <div class="wsf-field">
+                <input class="wsf-input-text" id="ws-user-id" type="text" placeholder="휴대폰 번호를 입력해주세요">
+            </div>
+        </form>
+        <form class="mem2">
+            <strong>기타 개인 설정</strong>
+            <div class="auto_mem2_wrap">
+                <strong>
+                    <input type="checkbox" name="check" value="autologin">정보를 메일로 받겠습니다
+                </strong>
+                <strong><input type="checkbox" name="check" value="autologin">정보를 문자로 받겠습니다</strong>
+            </div>
+            <div class="wsf-field">
+                <button onclick="joinform_check()" class="ws-button-wquare3 ws-button_full"
+                    data-button-style="filled-primary" onclick="prospectLogin(); return flase;">가입하기</button>
+            </div>
+            </from>
+    </article>
+</section>

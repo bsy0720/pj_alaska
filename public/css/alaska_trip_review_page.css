@@ -1,0 +1,200 @@
+.subpg_sec h1 {
+    font-size: 28px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.sub_visual .map {
+    background-image: url(../img/sub_trip_review/youtube_ban.jpg)
+}
+
+#sidemenu ul .navy a {
+    color: #edbd03;
+    background: #072f49 url(../img/logo/smenu_bg_ov.png) no-repeat right 10px center;
+}
+
+#sidemenu ul #gray a {
+    background-color: #fff;
+    background: none;
+    color: #676767;
+}
+
+.main_t_btn_wrap {
+    width: 100%;
+    height: 37px;
+    line-height: 37px;
+    margin-bottom: 20px;
+}
+
+.main_t_btn {
+    float: right;
+    width: 80px;
+    height: 37px;
+    border: 1px solid #072F49;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.main_t_btn>a {
+    color: #072F49;
+    font-size: 14px;
+}
+
+table {
+    width: 100%;
+}
+
+thead .n_blue {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px 0;
+    height: 33px;
+    line-height: 33px;
+    color: #2a47a6;
+    font-weight: bold;
+    letter-spacing: -0.1em;
+    text-align: center;
+}
+
+.img_box {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.img_box img {
+    margin: auto;
+}
+
+
+
+tbody .txt_box {
+    padding: 30px 10px;
+    background: #ffffff;
+    text-align: left;
+}
+
+tbody .info_wrap {
+    display: flex;
+    border-bottom: 1px solid #E1E1E1;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+tbody .info_wrap>dl {
+    display: flex;
+}
+
+tbody .info {
+    float: left;
+    margin: 0;
+    padding-left: 3px;
+    letter-spacing: -0.5px;
+}
+
+tbody .info>dt {
+    float: left;
+    color: #737373;
+}
+
+tbody .space {
+    padding-left: 20px;
+}
+
+
+tbody .info>dd {
+    float: left;
+    background: transparent url(../img/sub/view_bar.gif) no-repeat scroll 0 45%;
+    display: inline;
+    margin-left: 6px;
+    padding-left: 6px;
+}
+
+tbody .txt_box>p {
+    margin: 10px 0;
+    padding-left: 3px;
+}
+
+tbody .txt_box>p>.point {
+    font-weight: bold;
+}
+
+tbody .txt_box>.point1 {
+    font-weight: bold;
+}
+
+.txt_box #cen {
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+#np_b_txtbox {
+    width: 100%;
+    margin: 0 0 50px 0;
+    padding: 0;
+    border-top: 1px solid #ddd;
+    align-items: center;
+}
+
+.np_b_up {
+    width: 100%;
+    display: flex;
+    padding: 20px 0 20px 3px;
+    border-bottom: 1px solid #ddd;
+
+}
+
+.np_b_up>p {
+    float: left;
+    color: #737373;
+}
+
+.np_b_up a {
+    float: left;
+    background: transparent url(../img/sub_notice_page/view_bar.gif) no-repeat scroll 0 45%;
+    display: inline;
+    margin-left: 6px;
+    padding-left: 10px;
+    color: #000;
+}
+
+.np_b_down {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    border-bottom: 2px solid #2A47A6;
+    padding-left: 3px;
+    padding-bottom: 20px;
+}
+
+.np_b_down>p {
+    float: left;
+    color: #737373;
+}
+
+.np_b_down a {
+    float: left;
+    background: transparent url(../img/sub_notice_page/view_bar.gif) no-repeat scroll 0 45%;
+    display: inline;
+    margin-left: 6px;
+    padding-left: 10px;
+    color: #000;
+}
+
+
+
+
+@media only screen and (max-width: 900px) {}
+
+@media only screen and (max-width: 720px) {
+    thead .n_blue {
+        font-size: 14px;
+    }
+
+    tbody td {
+        font-size: 14px;
+    }
+
+    .main_t_btn>a {
+        font-size: 13px;
+    }
+}

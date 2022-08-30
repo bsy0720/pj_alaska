@@ -1,0 +1,579 @@
+.sub_visual .bg0w {
+    background-image: url(../img/sub_weather_travel/sub_weather_ban.jpg)
+}
+
+.sub_visual .bg0par {
+    background-image: url(../img/sub_partner_trip/partner_ban.jpg)
+}
+
+.showtrip,
+.showtrip1 {
+    display: none;
+}
+
+.subpg_sec {
+    width: 100%;
+}
+
+.btn_c,
+.btn_c1 {
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #072f49;
+    background: none;
+    border: none;
+    outline: none;
+    display: none;
+    box-sizing: border-box;
+    margin: 0 auto 100px;
+    text-align: center;
+    cursor: pointer;
+    padding-right: 25px;
+    background-image: url(../img/logo/more2.png);
+    background-size: 15px 10px;
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+.btn_open,
+.btn_open1 {
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #072f49;
+    background: none;
+    border: none;
+    outline: none;
+    display: block;
+    box-sizing: border-box;
+    margin: auto;
+    cursor: pointer;
+    padding-right: 25px;
+    background-image: url(../img/logo/more1.png);
+    background-size: 15px 10px;
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+.btn_open {
+    margin-bottom: 100px;
+}
+
+.trip_wrap {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid #85868c;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.trip_wrap>.trip_pic {
+    position: relative;
+    width: 40%;
+    height: 300px;
+    margin-right: 20px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.tpic1 {
+    background-image: url(../img/sub_weather_travel/season_trip1.jpg);
+}
+
+.tpic2 {
+    background-image: url(../img/sub_weather_travel/season_trip2.jpg);
+}
+
+.tpic3 {
+    background-image: url(../img/sub_weather_travel/season_trip3.jpg);
+}
+
+.tpic4 {
+    background-image: url(../img/sub_weather_travel/season_trip4.jpg);
+}
+
+.tpic5 {
+    background-image: url(../img/sub_weather_travel/season_trip5.jpg);
+}
+
+.tpic6 {
+    background-image: url(../img/sub_weather_travel/season_trip6.jpg);
+}
+
+.tpic7 {
+    background-image: url(../img/sub_weather_travel/season_trip7.jpg);
+}
+
+.tpic8 {
+    background-image: url(../img/sub_weather_travel/season_trip8.png);
+}
+
+.tpic9 {
+    background-image: url(../img/sub_weather_travel/season_trip9.jpg);
+}
+
+.tpic10 {
+    background-image: url(../img/sub_weather_travel/season_trip10.jpg);
+}
+
+.ptpic1 {
+    background-image: url(../img/sub_partner_trip/bar_ice.jpg);
+}
+
+.ptpic2 {
+    background-image: url(../img/sub_partner_trip/we_ice.jpg);
+}
+
+.thempic1 {
+    background-image: url(../img/sub_weather_travel/theme_trip1.jpg);
+}
+
+.thempic2 {
+    background-image: url(../img/sub_weather_travel/theme_trip2.png);
+}
+
+.thempic3 {
+    background-image: url(../img/sub_travel/them_ice1.jpg);
+}
+
+.thempic4 {
+    background-image: url(../img/sub_travel/them_animal1.jpg);
+}
+
+.thempic5 {
+    background-image: url(../img/sub_travel/them_pair1.jpg);
+}
+
+.thempic6 {
+    background-image: url(../img/sub_travel/them_tree1.jpg);
+}
+
+.trip_tag {
+    position: absolute;
+    width: 70px;
+    height: 30px;
+    font-weight: bold;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.trip_wrap>.trip_text {
+    width: 60%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 240px;
+}
+
+.trip_text_box {
+    width: 100%;
+}
+
+.trip_text_box>h4 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.trip_text_box>p {
+    font-size: 16px;
+}
+
+.trip_term {
+    margin-top: 10px;
+    padding-left: 20px;
+    font-size: 14px;
+    background-image: url(../img/sub_weather_travel/travel_term_logo.png);
+    background-size: 20px 20px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.trip_btn_more {
+    padding: 10px 20px;
+    color: #000;
+    display: block;
+    width: 180px;
+    height: 60px;
+    line-height: 40px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #85868c;
+    box-sizing: border-box;
+    background: none;
+    cursor: pointer;
+}
+
+.trip_btn_more:hover {
+    background-color: #072f49;
+    color: #fff;
+}
+
+.tmodal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    z-index: 999;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+.modal-content {
+    top: 45%;
+    transform: translate(0, -50%);
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    border: 1px solid #888;
+    box-sizing: border-box;
+    width: 60%;
+    height: 700px;
+    overflow-y: auto;
+    padding: 40px 20px;
+    z-index: 999;
+}
+
+.close_wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #85868c;
+}
+
+.close1 {
+    color: #fefefe;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.trip_modal_wrap {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.trip_modal_wrap>.trip_txt_wrap {
+    width: 100%;
+    margin-left: 0;
+}
+
+.trip_txt_wrap {
+    margin: auto;
+    width: 50%;
+    margin-left: 20px;
+}
+
+.trip_txt {
+    padding: 10px 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #85868c;
+}
+
+.trip_txt:first-child {
+    border-top: none;
+}
+
+.trip_t {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 35%;
+}
+
+.trip_s {
+    font-size: 14px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    width: 65%;
+    color: #000;
+}
+
+.showt {
+    border-left: 6px solid #072f49;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.themSwiper {
+    width: 100%;
+    height: 400px;
+    margin: auto;
+}
+
+.themSwiper>.swiper-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+
+.themSwiper>div>div>img {
+    width: 100%;
+    height: 100%;
+}
+
+.part_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.partpic {
+    width: calc(50% - 20px);
+    padding-top: 40%;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.partpic1 {
+    background-image: url(../img/sub_travel/icepic1.jpg);
+}
+
+.partpic2 {
+    background-image: url(../img/sub_travel/trailpic1.jpg);
+}
+
+.partpic3 {
+    background-image: url(../img/sub_travel/dog1.png);
+}
+
+.partpic4 {
+    background-image: url(../img/sub_travel/air1.jpg);
+}
+
+.p_txt {
+    width: 50%;
+}
+
+.p_txt>h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.p_txt>.sub_y {
+    font-size: 18px;
+    color: #EDBD03;
+    margin-bottom: 5px;
+}
+
+.p_txt_bg {
+    margin-top: 20px;
+    background-color: #072f49;
+    color: #EDBD03;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+
+
+
+@media only screen and (max-width: 900px) {
+    .trip_wrap {
+        margin-bottom: 30px;
+    }
+
+    .trip_pic {
+        width: 200px;
+        height: 250px;
+        margin-right: 10px;
+    }
+
+    .trip_wrap>.trip_text {
+        width: calc(100% - 200px);
+        height: 250px;
+        position: relative;
+    }
+
+    .trip_text_box>h4 {
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .trip_text_box>p {
+        font-size: 14px;
+    }
+
+    .trip_btn_more {
+        height: 60px;
+        width: 140px;
+        line-height: 40px;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .modal-content {
+        width: 90%;
+    }
+
+    .close1 {
+        font-size: 22px;
+    }
+
+    .trip_modal_wrap {
+        padding: 20px;
+    }
+
+    .trip_modal_box>.trip_text {
+        margin-left: 20px;
+    }
+
+    .trip_t {
+        font-size: 16px;
+    }
+
+    .trip_s {
+        font-size: 14px;
+    }
+
+    .themSwiper {
+        height: 300px;
+    }
+}
+
+
+
+@media only screen and (max-width: 720px) {
+    .trip_wrap>.trip_pic {
+        width: auto;
+        height: 200px;
+        padding-left: 50%;
+        margin-right: 10px;
+        background-size: auto 100%;
+        background-position: center center;
+    }
+
+    .trip_wrap>.trip_text {
+        width: 100%;
+        height: 200px;
+    }
+
+    .trip_wrap {
+        width: 100%;
+        padding: 10px;
+        position: relative;
+        box-sizing: border-box;
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .trip_text_box>h4 {
+        margin-bottom: 5px;
+    }
+
+    .trip_btn_more {
+        height: 60px;
+        width: 90%;
+        line-height: 40px;
+        font-size: 16px;
+    }
+
+    .modal-content {
+        width: 95%;
+    }
+
+    .trip_modal_box {
+        display: block;
+    }
+
+    .modaltrip_pic {
+        width: 100%;
+        height: 320px;
+        position: relative;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    .trip_txt_wrap {
+        margin: auto;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+
+    .trip_table>tbody>tr>td>.table_trip_box h1 {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .trip_table>tbody>tr>td>h2 {
+        font-size: 16px;
+    }
+
+    .trip_txt {
+        padding: 5px 0;
+    }
+
+    .trip_pic_txt {
+        font-size: 14px;
+    }
+
+    .trip_text_box>h4 {
+        font-size: 14px;
+    }
+
+    .trip_text_box>p {
+        display: none;
+    }
+
+    .trip_table>tbody>tr>td:nth-child(3) {
+        width: 100%;
+    }
+
+    .trip_modal_wrap {
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .trip_modal_wrap>.trip_txt_wrap {
+        margin-top: 15px;
+    }
+
+    .trip_table>tbody>tr>td {
+        padding: 0;
+    }
+
+}

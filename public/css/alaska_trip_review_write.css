@@ -1,0 +1,175 @@
+.subpg_sec h1 {
+    font-size: 28px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.sub_visual .map {
+    background-image: url(../img/sub_trip_review/youtube_ban.jpg)
+}
+
+#sidemenu ul .gray a {
+    color: #676767;
+    background-color: white;
+    background: none;
+}
+
+#sidemenu ul .navy a {
+    color: #edbd03;
+    background: #072f49 url(../img/logo/smenu_bg_ov.png) no-repeat right 10px center;
+}
+
+.write_t_wrap {
+    width: 100%;
+    height: 37px;
+    line-height: 37px;
+    margin-bottom: 20px;
+}
+
+
+.write_t_wrap>a {
+    color: #072F49;
+    font-size: 14px;
+    width: 80px;
+    height: 37px;
+    border: 1px solid #072F49;
+    float: right;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.write_t_wrap>a:hover {
+    background-color: #072F49;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.space1>td>label {
+    margin-right: 10px;
+}
+
+.write_btn_wrap {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+}
+
+.write_btn_wrap>a {
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    width: 150px;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #072F49;
+    border-radius: 3px;
+}
+
+.write_btn_wrap>a:hover {
+    background-color: #edbd03;
+    color: #072F49;
+}
+
+.write_table {
+    margin-top: 15px;
+}
+
+.write_table>#w_table {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    border-collapse: separate;
+    table-layout: fixed;
+    font-size: 15px;
+}
+
+#w_table th {
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    background-color: #f7f7f7;
+    font-size: 16px;
+    font-weight: 600;
+    color: #111;
+    padding: 15px 20px;
+    line-height: 23px;
+    text-align: center;
+
+}
+
+#w_table .impt {
+    position: relative;
+    padding-right: 10px;
+}
+
+#w_table .impt::before {
+    content: '*';
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #2a47a6;
+}
+
+#w_table td {
+    text-align: left;
+    min-height: 54px;
+    padding: 15px 20px;
+    font-weight: 400;
+    line-height: 23px;
+    border-top: 1px solid #ddd;
+}
+
+
+
+#w_table .input_p {
+    border: 1px solid #cdcdcd;
+    border-radius: 3px;
+    padding: 5px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+#w_table .input_title {
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #cdcdcd;
+    border-radius: 3px;
+    outline: none;
+}
+
+.form_text>textarea {
+    height: 300px;
+    resize: none;
+    padding: 15px;
+    border: 1px solid #cdcdcd;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    outline: none;
+    box-sizing: border-box;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    .write_table {
+        width: 100%;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 720px) {
+
+    #w_table th {
+        font-size: 14px;
+        padding: 15px 5px;
+    }
+
+    #sidemenu ul .navy a {
+        color: #edbd03;
+        background: #072f49 url(../img/logo/smenu_bg_ov.png) no-repeat right 10px center;
+    }
+}

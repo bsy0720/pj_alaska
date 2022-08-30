@@ -1,0 +1,67 @@
+<div class="sub_visual">
+    <div class="bg orora">
+        <p class="title">고객센터</p>
+        <p class="txt">내가 꿈꾸던 여행지를 현실에서 만나세요!</p>
+    </div>
+</div>
+<div class="w1200 content_box">
+    <div id="content">
+        <div class="subpg_title_wrap">
+            <h2 class="subpg_title">여행상품 Q&A</h2>
+        </div>
+        <div class="main_t_btn_wrap">
+            <div class="qna_btn">
+                <a href="alaska_Q&A">목록</a>
+            </div>
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="n_blue">
+                            <span><%=row.title%></span>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="info_wrap">
+                            <dl class="info">
+                                <dt>작성일</dt>
+                                <dd><%=row.created%></dd>
+                            </dl>
+                            <dl class="info space">
+                                <dt>작성자</dt>
+                                <dd><%=row.writer%></dd>
+                            </dl>
+                        </td>
+                    </tr>
+                    <% if(typeof errs !== 'undefined'){ %>
+                    <% errs.forEach((err) =>{%>
+                    <h3><%=err.param%> : <%=err.msg%></h3>
+                    <%})%>
+                    <%}%>
+                        <tr>
+                            <td class="txt_box">
+                                <%=row.content%>
+                    </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="np_b_txtbox">
+            <div class="np_b_up">
+                <p>이전글</p>
+                <sapn><a href="#">없음</a></sapn>
+            </div>
+            <div class="np_b_down">
+                <p>다음글</p>
+                <span><a href="qna_page1">RE : 알라스카 관광문의</a></span>
+            </div>
+        </div>
+        <div id="b_btn">
+            <input type="button" onclick="javascript:location.href = '/newQna?id=<%=row.id%>'" value="수정">
+            <input type="button" onclick="javascript:location.href = '/deleteQna?id=<%=row.id%>'" value="삭제">
+        </div>
+    </div>
+</div>

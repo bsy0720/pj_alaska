@@ -1,0 +1,115 @@
+<div class="sub_visual">
+    <div class="bg map2">
+        <p class="title">커뮤니티</p>
+        <p class="txt">광활하고 순수한 대지, 알래스카로 초대합니다.</p>
+    </div>
+</div>
+<div class="w1200 content_box">
+    <div id="content">
+        <div class="subpg_title_wrap">
+            <h2 class="subpg_title">여행후기</h2>
+        </div>
+        <div class="trip_re_wrap">
+            <a href="trip_review_write">글쓰기</a>
+        </div>
+        <div class="trip_re_table_wrap">
+            <div class="trip_re_table">
+                <table border="1">
+                    <colgroup>
+                        <col style="width:100px">
+                        <col style="width:auto">
+                        <col style="width:100px">
+                        <col style="width:150px">
+                    </colgroup>
+                    <thead id="trip_thick">
+                        <tr>
+                            <th>번호</th>
+                            <th>제목</th>
+                            <th>글쓴이</th>
+                            <th>날짜</th>
+                        </tr>
+                    </thead>
+                    <tbody id="trip_re">
+                        <% rows.forEach((row, index) => { %>
+                        <tr>
+                            <td class="center thick"><%=row.id%></td>
+                            <td><a
+                                    onclick="javascript:location.href='/trip_review_page?id=<%=row.id%>'"><%=row.title%></a>
+                            </td>
+                            <td class="center"><%=row.writer%></td>
+                            <td class="center"><%=row.created%></td>
+                        </tr>
+                        <% }) %>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div id="mb_trip_re_table_wrap">
+            <div id="mb_trip_re_table">
+                <table border="1">
+                    <colgroup>
+                        <col style="width:100px">
+                        <col style="width:auto">
+                        <col style="width:150px">
+                    </colgroup>
+                    <thead id="trip_thick">
+                        <tr>
+                            <th>번호</th>
+                            <th>제목</th>
+                            <th>날짜</th>
+                        </tr>
+                    </thead>
+                    <tbody id="mb_trip_re">
+                        <% rows.forEach((row, index) => { %>
+                        <tr>
+                            <td class="center thick"><%=row.id%></td>
+                            <td><a onclick="javascript:location.href='/trip_review?id=<%=row.id%>'"><%=row.title%></a>
+                            </td>
+                            <td class="center"><%=row.created%></td>
+                        </tr>
+                        <% }) %>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="trip_num">
+            <a href="#" class="n_left"></a>
+            <a href="#" class="trip_b_b">1</a>
+            <a href="#" class="n_right"></a>
+        </div>
+    </div>
+</div>
+<a href="#" class="top">
+    <img src="../img\logo\b_top.png">
+</a>
+<div class="side_quick_menu">
+    <div class="side_container">
+        <div class="side_currency">
+            <select id="side_currency-one">
+                <option value="KRW" selected>KRW</option>
+                <option value="USD">USD</option>
+            </select>
+            <input type="number" id="side_amount-one" placeholder="0" value="1">
+        </div>
+        <div class="side_swap-rate-container">
+            <button class="side_btn" id="side_swap">⇅</button>
+        </div>
+        <div class="side_currency">
+            <select id="side_currency-two">
+                <option value="KRW">KRW</option>
+                <option value="USD" selected>USD</option>
+            </select>
+            <input type="number" id="side_amount-two" placeholder="0">
+        </div>
+    </div>
+    <div class="side_rate" id="side_rate"></div>
+    <div class="side_weather">
+        <div class="l_box">
+            <div class="s_CurrIcon"></div>
+        </div>
+        <div class="r_box">
+            <div class="s_CurrTemp"></div>
+            <div class="s_city"></div>
+        </div>
+    </div>
+</div>

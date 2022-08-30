@@ -1,0 +1,108 @@
+<div class="sub_visual">
+    <div class="bg orora">
+        <p class="title">고객센터</p>
+        <p class="txt">내가 꿈꾸던 여행지를 현실에서 만나세요!</p>
+    </div>
+</div>
+<div class="w1200 content_box">
+    <div id="content">
+        <div class="subpg_title_wrap">
+            <h2 class="subpg_title">공지사항</h2>
+        </div>
+        <div class="m_right">
+            <select class="n_select" id="notice_select" name="notice_select">
+                <option value="1">제목</option>
+                <option value="2">내용</option>
+            </select>
+            <div class="notice_search">
+                <input type="text" class="n_search" id="notice_search" name="notice_search">
+                <a href="#" class="n_search_icon"></a>
+            </div>
+        </div>
+        <div class="n_table_wrap">
+            <div class="n_table">
+                <table border="1">
+                    <colgroup>
+                        <col style="width:100px">
+                        <col style="width:auto">
+                        <col style="width:100px">
+                        <col style="width:150px">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th scope="col">번호</th>
+                            <th scope="col">제목</th>
+                            <th scope="col">글쓴이</th>
+                            <th scope="col">작성일</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="lb center">
+                                <p class="blue">공지</p>
+                            </td>
+                            <td class="lb"> 2022 알라스카 여름관광 open</td>
+                            <td class="lb center">최고관리자</td>
+                            <td class="lb center"></td>
+                        </tr>
+                        <tr>
+                            <td class="lb center">
+                                <p class="blue">공지</p>
+                            </td>
+                            <td class="lb">2022 알라스카 여름관광 설명회(한국)</td>
+                            <td class="lb center">최고관리자</td>
+                            <td class="lb center"></td>
+                        </tr>
+                        <%rows.forEach((row, index) => {%>
+                        <tr id="tr_notice">
+                            <td class="center"><%=row.RNUM%></td>
+                            <td class="n_click"><a
+                                    onclick="javascript:location.href='/notice_page?id=<%=row.id%>'"><%=row.title%></a>
+                            </td>
+                            <td class="center"><%=row.writer%></td>
+                            <td class="center"><%=row.created%></td>
+                        </tr>
+                        <%})%>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="main_b_wrap">
+            <a href="alaska_notice_write">글쓰기</a>
+        </div>
+    </div>
+</div>
+<a href="#" class="top">
+    <img src="../img\logo\b_top.png">
+</a>
+<div class="side_quick_menu">
+    <div class="side_container">
+        <div class="side_currency">
+            <select id="side_currency-one">
+                <option value="KRW" selected>KRW</option>
+                <option value="USD">USD</option>
+            </select>
+            <input type="number" id="side_amount-one" placeholder="0" value="1">
+        </div>
+        <div class="side_swap-rate-container">
+            <button class="side_btn" id="side_swap">⇅</button>
+        </div>
+        <div class="side_currency">
+            <select id="side_currency-two">
+                <option value="KRW">KRW</option>
+                <option value="USD" selected>USD</option>
+            </select>
+            <input type="number" id="side_amount-two" placeholder="0">
+        </div>
+    </div>
+    <div class="side_rate" id="side_rate"></div>
+    <div class="side_weather">
+        <div class="l_box">
+            <div class="s_CurrIcon"></div>
+        </div>
+        <div class="r_box">
+            <div class="s_CurrTemp"></div>
+            <div class="s_city"></div>
+        </div>
+    </div>
+</div>

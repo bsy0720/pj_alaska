@@ -1,0 +1,253 @@
+.sub_visual .bgin {
+    background-image: url(../img/sub_intro/banimg.jpg)
+}
+
+.subintro_sec1_box {
+    padding-top: 40px;
+    border-top: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subintro_sec_text1 {
+    width: 100%;
+}
+
+.subintro_sec_text1>p {
+    line-height: 30px;
+}
+
+.subnoted_title {
+    text-align: left;
+}
+
+.subnoted_title>h2 {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.subnoted_txt_wrap {
+    width: calc(60% - 20px);
+}
+
+.subnoted_txt {
+    padding: 10px 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #85868c;
+}
+
+.subnoted_txt:last-child {
+    border-bottom: 1px solid #85868c;
+}
+
+.subnoted_t {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    width: 20%;
+}
+
+.subnoted_s {
+    font-size: 15px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    width: 80%;
+    color: #85868c;
+}
+
+.subnoted_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subnoted_wrap>.subnoted_txt_wrap .subnoted_t {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    width: 30%;
+}
+
+.subnoted_wrap>.subnoted_txt_wrap .subnoted_s {
+    font-size: 14px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    width: 70%;
+    color: #85868c;
+}
+
+.subnoted_pic {
+    width: 40%;
+    height: 360px;
+    overflow: hidden;
+}
+
+.subnoted_pic>img {
+    width: 100%;
+}
+
+.subnoted_txt_box {
+    width: calc(50% - 20px);
+}
+
+.subnoted_txt_box>p {
+    font-size: 16px;
+    color: #85868c;
+    margin-bottom: 10px;
+}
+
+.subnoted_txt_wrap>p {
+    font-size: 16px;
+    color: #85868c;
+    margin-bottom: 10px;
+}
+
+.subnoted_txt_box>p>span {
+    font-weight: 700;
+}
+
+.subintro_noted_sec_bg {
+    background-color: #f4f4f4;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+.subintro_noted_sec_bg>.subnoted_wrap_box>.subnoted_txt_wrap {
+    width: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+    .subintro_sec1 h1 {
+        font-size: 20px;
+    }
+
+    .subintro_sec1 h2 {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .subnoted_title>h2 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .subnoted_t {
+        font-size: 16px;
+        font-weight: 700;
+        padding: 20px 10px;
+        box-sizing: border-box;
+        width: 20%;
+    }
+
+    .subnoted_s {
+        font-size: 16px;
+        padding-left: 20px;
+        box-sizing: border-box;
+        width: 80%;
+        color: #85868c;
+    }
+
+    .subnoted_wrap>.subnoted_txt_wrap .subnoted_t {
+        font-size: 14px;
+        font-weight: 700;
+        padding: 20px 10px;
+        box-sizing: border-box;
+        width: 30%;
+    }
+
+    .subnoted_wrap>.subnoted_txt_wrap .subnoted_s {
+        font-size: 14px;
+        padding-left: 20px;
+        box-sizing: border-box;
+        width: 70%;
+        color: #85868c;
+    }
+
+
+}
+
+@media only screen and (max-width: 720px) {
+    .subintro_sec1 h1 {
+        font-size: 18px;
+    }
+
+    .subintro_sec1 h2 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .subnoted_title>h2 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .subnoted_t {
+        font-size: 16px;
+        padding: 10px 5px;
+        box-sizing: border-box;
+        width: 35%;
+    }
+
+    .subnoted_s {
+        font-size: 15px;
+        padding-left: 10px;
+        width: 65%;
+    }
+
+    .subnoted_wrap>.subnoted_txt_wrap .subnoted_t {
+        font-size: 16px;
+        padding: 10px 5px;
+        width: 35%;
+    }
+
+    .subnoted_wrap>.subnoted_txt_wrap .subnoted_s {
+        font-size: 15px;
+        padding-left: 10px;
+        width: 65%;
+    }
+
+    .subnoted_txt_box {
+        display: block;
+    }
+
+    .subnoted_wrap {
+        display: block;
+    }
+
+    .subnoted_wrap>.subnoted_txt_box:last-child {
+        padding-top: 60px;
+    }
+
+    .subnoted_txt_box {
+        width: 100%
+    }
+
+    .subnoted_wrap>.subnoted_txt_wrap {
+        width: 100%;
+    }
+
+    .subnoted_pic {
+        width: 100%;
+        height: auto;
+    }
+
+    .subnoted_txt_box>p {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    .subnoted_txt_wrap>p {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    .subnoted_txt_wrap {
+        width: 100%;
+    }
+}

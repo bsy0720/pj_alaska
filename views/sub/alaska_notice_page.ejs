@@ -1,0 +1,70 @@
+<div class="sub_visual">
+    <div class="bg orora">
+        <p class="title">고객센터</p>
+        <p class="txt">내가 꿈꾸던 여행지를 현실에서 만나세요!</p>
+    </div>
+</div>
+<div class="w1200 content_box">
+
+    <div id="content">
+        <div class="subpg_title_wrap">
+            <h2 class="subpg_title">공지사항</h2>
+        </div>
+        <section id="main_t_btn_wrap">
+            <div id="main_t_btn">
+                <a href="notice">목록</a>
+            </div>
+        </section>
+        <section id="np_table_wrap">
+            <table id="np_table">
+                <thead>
+                    <tr>
+                        <th class="n_blue">
+                            <span> <%= row.title%></span>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="info_wrap">
+                            <dl class="info">
+                                <dt>작성일</dt>
+                                <dd><%= row.created%></dd>
+                            </dl>
+                            <dl class="info space">
+                                <dt>작성자</dt>
+                                <dd><%= row.writer%></dd>
+                            </dl>
+                        </td>
+                    </tr>
+                    <% if(typeof errs !== 'undefined'){ %>
+                    <%errs.forEach(()=>{%>
+                    <h3><%=err.param%> : <%=err.msg%></h3>
+                    <%})%>
+                    <%}%>
+                    <tr>
+                       <td id="txt_box">
+                        <%= row.content%>
+                    </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            </form>
+        </section>
+        <section id="np_b_txtbox">
+            <div class="np_b_up">
+                <p>이전글</p>
+                <sapn><a href="#">없음</a></sapn>
+            </div>
+            <div class="np_b_down">
+                <p>다음글</p>
+                <span><a href="#">2022 알라스카 여름관광 설명회(한국)</a></span>
+            </div>
+        </section>
+        <div class="nd_btn">
+            <input type="button" value="수정" onclick="javascript:location.href='/NewNotice?id=<%=row.id%>'">
+            <input type="button" value="삭제" onclick="javascript:location.href='/deleteNotice?id=<%=row.id%>'">
+        </div>
+    </div>
+</div>

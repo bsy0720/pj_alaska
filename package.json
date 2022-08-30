@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "ejs": "^3.1.7",
+    "express": "^4.18.0",
+    "express-ejs-layouts": "^2.5.1",
+    "express-validator": "^6.14.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "static": "^2.0.0",
+    "vuesax": "^4.0.1-alpha.25"
+  },
+  "name": "project1",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guswjd6476/nod.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guswjd6476/nod/issues"
+  },
+  "homepage": "https://github.com/guswjd6476/nod#readme",
+  "description": "프로젝트 작성중....."
+}

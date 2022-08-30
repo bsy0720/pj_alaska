@@ -1,0 +1,166 @@
+.login_wrap>a {
+    text-align: right;
+    color: #072f49;
+    width: 25px;
+    height: 25px;
+}
+
+.wsf-field {
+    align-items: left;
+    margin-bottom: 18px;
+}
+
+.mem2 {
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+.mem2>strong {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.mem2>p {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.mem2>.wsf-field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.mem2>.wsf-field>.ws_button {
+    background-color: #072f49;
+    color: #edbd03;
+    cursor: pointer;
+    font-size: 16px;
+    width: 140px;
+    border-radius: 6px;
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+.mem2 .wsf-input-text {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #c8c8c8;
+    border-radius: 6px;
+    padding: 12px 18px;
+    font-size: 18px;
+    width: 100%;
+    line-height: 1.5;
+}
+
+.wsf-input-error {
+    display: none;
+    color: #ff0e00;
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+.email_wrap {
+    margin-left: 10px;
+    width: 60%;
+    box-sizing: border-box;
+    border: 1px solid #c8c8c8;
+    border-radius: 6px;
+    padding: 12px 18px;
+    font-size: 16px;
+    line-height: 1.5;
+    outline: none;
+}
+
+.auto_mem2_wrap {
+    display: flex;
+}
+
+.auto_mem2_wrap>strong {
+    margin-right: 20px;
+}
+
+.auto_mem2_wrap>strong>input {
+    margin-right: 10px;
+}
+
+.mem2>strong {
+    padding-top: 20px;
+}
+
+.mem2>strong:first-child {
+    margin-bottom: 0;
+}
+
+
+@media only screen and (max-width: 720px) {
+    .blue_wrap {
+        display: block;
+    }
+
+    .login_title>h1 {
+        font-size: 40px;
+    }
+
+    .login_title>strong {
+        font-size: 20px;
+    }
+
+    .mem2 .wsf-input-text {
+        padding: 10px 15px;
+        font-size: 14px;
+        width: 100%;
+        line-height: 1.5;
+    }
+
+    .wsf-field button {
+        font-size: 14px;
+    }
+
+    .login_utill_wrap {
+        width: 100%;
+    }
+
+    .login_utill_wrap a {
+        font-size: 14px;
+    }
+
+    .email_wrap {
+        font-size: 12px;
+    }
+
+    .auto_mem2_wrap {
+        flex-direction: column;
+    }
+
+    .auto_mem2_wrap>strong {
+        font-size: 14px;
+        margin-right: 0px;
+        margin-bottom: 8px;
+    }
+
+    .mem2>.wsf-field>.ws_button {
+        background-color: #072f49;
+        color: #edbd03;
+        cursor: pointer;
+        font-size: 14px;
+        width: 140px;
+        border-radius: 6px;
+        margin-left: 20px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .login_wrap {
+        width: 100%;
+        padding: 50px 0px;
+    }
+
+    .login_utill_wrap a {
+        padding: 5px 0;
+    }
+
+}

@@ -1,0 +1,13 @@
+.subpg_sec h1 {
+    font-size: 28px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.sub_visual .bg01 {
+    background-image: url(../img/sub/banimg.jpg)
+}
+
+@media only screen and (max-width: 900px) {}
+
+@media only screen and (max-width: 720px) {}
